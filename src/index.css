@@ -1,0 +1,165 @@
+/* body{
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(16, 17, 17, 0.913);
+    padding: 50px;
+    color: white;
+} */
+
+/*................ Props ................*/
+.card{
+    margin: auto;
+    width: 200px;
+    background-color: hsla(0, 0%, 42%, 0.249);
+    border: 1px solid transparent;
+    margin-top: 30px; 
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+    color: white;
+}
+
+
+/*................ Conditional Rendering ................*/
+.welcomeMessage{
+    color: white;
+    text-align: center;
+    background-color: green;
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.errorMessage{
+    color: white;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.509);
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.main{
+    color: white;
+    background-color: hsla(180, 2%, 46%, 0.285);
+    width: 200px;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+
+}
+.btn{
+    margin: 50px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.8s;
+}
+.btn:hover{
+    background-color: aquamarine;
+}
+
+
+/* .box{
+    width: 300px;
+    background-color: hsla(180, 2%, 46%, 0.285);
+    color: white;
+    height: 300px;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    align-items:  center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+} */
+.counterDisplay p{
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: -10px;
+}
+.btns{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.btn-inc{
+    width: 70px;
+    height: 50px;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 30px;
+    transition: .3s
+
+}
+.btn-dec{
+    width: 70px;
+    height: 50px;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 30px;
+    transition: .3s
+    
+}.btn-reset{
+    width: 70px;
+    height: 50px;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .3s
+    
+}
+.btn-inc:hover{
+    background-color: rgba(27, 26, 27, 0.772);
+    color: white;
+    
+}
+.btn-dec:hover{
+    background-color: rgba(27, 26, 27, 0.772);
+    color: white;
+    
+}
+.btn-reset:hover{
+    background-color: rgba(27, 26, 27, 0.772);
+    color: white;
+    
+}
+
+
+.color-picker-container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.color-display{
+   height: 150px;
+   width: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border: 1px solid transparent;
+   border-radius: 20px;
+   margin-bottom: 20px;
+}
+.color-display p{
+    font-size: 20px;
+    margin: 0;
+}
